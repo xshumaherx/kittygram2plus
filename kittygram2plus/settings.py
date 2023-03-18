@@ -127,7 +127,7 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = {
-    'DEFAULT_PAGINATION_CLASS': 'cats.pagination.CustomPagination',
+    'DEFAULT_PAGINATION_CLASS': 'cats.pagination.CatsPagination',
     'PAGE_SIZE': 5,
     
     'DEFAULT_PERMISSION_CLASSES': [
